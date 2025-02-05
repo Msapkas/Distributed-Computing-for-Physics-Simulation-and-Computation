@@ -9,7 +9,7 @@ This project is a demonstrator for the use of distributed computing for physics 
 Two simulations were implemented:
 
 1. **2D Ising Model:** The simulation models the evolution of a spin lattice using the Metropolis algorithm, where multiple grids are distributed across multiple computing nodes, enabling parallel updates.
-2. **1D Particle Chain:** A thermodynamic simulation of a 1D chain of particles, where various physical properties (e.g., energy and entropy) are computed in parallel.
+2. **1D Particle Chain:** A thermodynamic simulation of a 1D chain of particles, where various physical properties (e.g., energy, temperature) are computed, by simulating a huge chain with smaller parallel subchains.
 
 _________
 
