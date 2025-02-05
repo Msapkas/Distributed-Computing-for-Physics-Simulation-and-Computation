@@ -2,7 +2,8 @@
 
 This project is a demonstrator for the use of distributed computing for physics simulations by connecting four Jetson Nano devices via a network switch and leveraging **Dask** to distribute computational loads. 
 
-![Jetsons]()
+![Jetsons](Home Made Jetson Cluster.jpg)
+![Jetsons2](Home Made Jetson Cluster2.jpg)
 
 Two simulations were implemented:
 
@@ -20,6 +21,8 @@ _________
 - **Client-Worker Setup:** Dask's distributed scheduler was used, with Jetson Nanos acting as worker nodes.
 - **Task Distribution:** The computational load is split among nodes, each handling part of the evolution.
 - **Data Management:** Dask arrays were used to manage distributed data efficiently.
+
+![Jetsons2](Jetsons Running.png)
 
 #### **2D Ising Model Simulation**
 - Implemented using the **Metropolis algorithm** to model spin state changes.
